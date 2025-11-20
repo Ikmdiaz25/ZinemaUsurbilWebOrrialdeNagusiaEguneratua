@@ -1,0 +1,62 @@
+*{
+
+margin: 0px;
+
+}
+body{
+
+
+color: rgb(230, 214, 164);
+
+}
+
+nav>img{
+
+
+width: 70px;
+height: 70px;
+border-radius: 50px;
+}
+
+
+header>#nabigazioBarra{
+
+    justify-content: space-between;
+}
+
+header{
+
+height: 100px;
+background-color: rgb(41, 40, 40);  
+align-items: center;
+display: flex;
+ 
+justify-content: space-between;
+
+}
+
+#nabigazioBarra, ul{
+
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+ 
+
+}
+
+#nabigazioBarra li{
+
+    
+    margin-right: 60px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nabigazioBarra button{
+
+background-color: rgb(230, 214, 164);
+margin-left: 150px;
+
+}
