@@ -1,62 +1,293 @@
-*{
+* {
 
-margin: 0px;
-
-}
-body{
-
-
-color: rgb(230, 214, 164);
+    margin: 0px;
 
 }
 
-nav>img{
+body {
 
 
-width: 70px;
-height: 70px;
-border-radius: 50px;
-}
-
-
-header>#nabigazioBarra{
-
-    justify-content: space-between;
-}
-
-header{
-
-height: 100px;
-background-color: rgb(41, 40, 40);  
-align-items: center;
-display: flex;
- 
-justify-content: space-between;
+    color: rgb(230, 214, 164);
 
 }
 
-#nabigazioBarra, ul{
+/*  HEDERRAREN ESTILOA  */
+
+nav>a>img {
+
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+
+header>#nabigazioBarra {
 
     
+}
+
+header {
+
+    height: 100px;
+    background-color: rgb(41, 40, 40);
+    align-items: center;
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+#nabigazioBarra,
+ul {
+
+
     list-style: none;
     display: flex;
     align-items: center;
     margin-left: 90px;
- 
+
 
 }
 
-#nabigazioBarra li{
+#nabigazioBarra li {
 
-    
+
     margin-right: 60px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#nabigazioBarra button{
+#nabigazioBarra button {
 
-background-color: rgb(230, 214, 164);
-margin-left: 150px;
+    background-color: rgb(230, 214, 164);
+    margin-left: 150px;
 
 }
+
+/*  FOOTERREN ESTILOA  */
+
+
+footer {
+
+    
+    background-color: rgb(41, 40, 40);
+    align-items: center;
+ 
+    color: rgb(230, 214, 164);
+
+}
+
+.footer1{
+
+margin-top: 50px;
+display: inline-flex;
+
+    
+}
+
+#saresozialak{
+
+    margin-left: 900px;
+   
+
+}
+
+#saresozialak>a>img{
+
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    margin-right: 0px;
+
+}
+
+.footer1>#saresozialak{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: right
+    
+
+}
+
+
+
+
+.footer1>a> img {
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    padding: 30px;
+
+}
+
+footer>.footer2{
+    border-top: solid 1px rgb(230, 214, 164);
+    padding-top: 50px;
+    display: flex  ;
+    margin-left: 20px;
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+
+    
+}
+
+/*  MAIN-AREN ESTILOA  */
+
+main>#carruselImg {
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 100px;
+}
+
+#carruselImg>a>img {
+
+
+    border-radius: 50px;
+    margin-top: 30px;
+
+}
+
+#carruselImg>a>img:hover {
+
+    transform: scale(1.03);
+    transition: ease 0.3s;
+    box-shadow: rgb(41, 40, 40) 0px 0px 10px 5px;
+}
+
+
+
+main>#botoiak>#aldatu,
+#aldatu2 {
+
+    margin-top: 20px;
+    background-color: rgb(41, 40, 40);
+    color: rgb(230, 214, 164);
+    font-size: 20px;
+
+}
+
+#botoiak {
+
+
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+
+    margin-bottom: 100px;
+
+}
+
+main>#botoiak>button {
+
+
+    margin-left: 10px;
+
+
+
+
+
+
+}
+/*  PELIKULEN ZERRENDAREN ESTILOA  */
+
+.titulua>h1{
+
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(41, 40, 40);
+    text-shadow: rgb(32, 32, 29) 2px 2px 5px;
+    border-top: solid 1px rgb(32, 32, 29);
+
+}
+
+
+
+
+#pelikulalista>.pelikula>a>.poster {
+
+    width: 300px;
+    height: 400px;
+    border-radius: 50px;
+
+
+
+
+}
+
+
+
+#pelikulalista {
+
+    margin-left: 200px;
+    background-color: rgb(56, 56, 65);
+    margin-bottom: 100px;
+    width: 800px
+    
+
+}
+
+
+#pelikulalista>.pelikula>a>.poster:hover {
+
+    width: 300px;
+    height: 400px;
+    border-radius: 50px;
+
+    transform: scale(1.03);
+    transition: ease 0.3s;
+    box-shadow: rgb(41, 40, 40) 0px 0px 10px 5px;
+
+
+
+
+}
+
+.pelikula{
+
+    padding: 50px;
+    display: flex ;
+    
+
+}
+
+.pelikulalista>.pelikula{
+
+    border: solid 1px rgb(22, 21, 21);
+
+}
+
+
+.pelikula>.pelikulatit>h1 {
+
+   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(218, 203, 203);
+    margin-left: 50px;
+
+    
+ 
+  
+
+}
+
+.pelikula>.description{
+
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(230, 214, 164);
+    width: 400px;
+
+}
+
